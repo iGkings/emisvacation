@@ -261,9 +261,8 @@ button {
 }
 
 /* Utility Classes */
-/* ===================================
-   TYPOGRAPHY
-=================================== */
+
+/* TYPOGRAPHY */
 
 h1,
 h2,
@@ -284,18 +283,14 @@ p {
   background: var(--section-bg);
 }
 
-/* ===================================
-   LOGO
-=================================== */
+/* LOGO */
 
 .logo img {
   height: 70px;
   width: auto;
 }
 
-/* ===================================
-   NAVIGATION
-=================================== */
+/* NAVIGATION */
 
 .nav-menu {
   display: flex;
@@ -495,9 +490,57 @@ p {
   align-items: flex-end;
   padding: 30px;
   border-radius: var(--radius);
+}
+
+.uk {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/uk.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.canada {
   background:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
     url("../images/canada.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.us {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/usa.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.uae {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/uae.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.france {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/france.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.china {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("../images/china.webp");
 
   background-size: cover;
   background-position: center;
