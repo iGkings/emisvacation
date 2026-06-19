@@ -854,9 +854,7 @@ p {
 }
 
 /* Mobile Responsive Styles */
-/* ===================================
-   TABLETS
-=================================== */
+/*  TABLETS */
 
 @media (max-width: 992px) {
   .hero-content,
@@ -892,9 +890,7 @@ p {
   }
 }
 
-/* ===================================
-   MOBILE
-=================================== */
+/*  MOBILE */
 
 @media (max-width: 768px) {
   .mobile-toggle {
