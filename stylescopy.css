@@ -809,13 +809,8 @@ p {
   transform: translateY(-5px) scale(1.08);
 }
 
-.whatsapp-float img {
-  width: 38px;
-  height: 38px;
-}
-
 .whatsapp-float i {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 
